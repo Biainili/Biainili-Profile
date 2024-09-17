@@ -28,7 +28,7 @@ body {
 }
 
 header {
-  padding-inline: 177px;
+  padding-inline: 80px;
   padding-top: 41px;
 }
 
@@ -92,7 +92,7 @@ nav ul li a {
 
 .profile {
   margin-top: 150px;
-  padding-inline: 177px;
+  padding-inline: 80px;
   padding-top: 45px;
   display: flex;
   justify-content: space-between;
