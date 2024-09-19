@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Biainili-Profile</title>
+    <link rel="icon" type="image/png" href="/img/apple-touch-icon.png" />
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
@@ -26,17 +27,17 @@
         </a>
         <nav id="menu_pc">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Tech Stack</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about-id">About</a></li>
+            <li><a href="#tech_stack-id">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
 
           <div class="social_container">
-            <a href=""><i class="fab fa-github"></i></a>
-            <a href=""><i class="fab fa-telegram"></i></a>
-            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Biainili" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/mode_mani" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.linkedin.com/in/armen-barkhudaryan-706245249/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
         </nav>
         <!-- Mobaile Menu START -->
@@ -47,17 +48,17 @@
             </a>
             <button id="menu_clouse">X</button>
           </div>
-          <ul class="mobile_menu_items">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Tech Stack</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
+          <ul class="mobile_menu_items" id="mobile_menu_items_id">
+            <li><a href="/">Home</a></li>
+            <li><a href="#about-id">About</a></li>
+            <li><a href="#tech_stack-id">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <div class="mobile_social_items">
-            <a href=""><img src="./img/Vector-github.svg" alt="GitHub" /></a>
-            <a href=""><img src="./img/Twiter.svg" alt="Twiter" /></a>
-            <a href=""><img src="./img/linkdin.svg" alt="Linkden" /></a>
+            <a href="https://github.com/Biainili" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/mode_mani" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href=""><i class="fab fa-linkedin" target="_blank"></i></a>
           </div>
         </div>
         <!-- Mobaile Menu END -->
@@ -65,7 +66,7 @@
       </div>
     </header>
 
-    <section class="profile">
+    <section class="profile" id="about-id">
       <div class="left_text">
         <h3>
           Hi 👋,<br />
@@ -83,7 +84,7 @@
       </div>
     </section>
 
-    <section class="stack">
+    <section class="stack" id="tech_stack-id">
       <div class="titel_stack">
         <h2>My Tech Stack</h2>
         <span> Technologies I’ve been working with recently</span>
@@ -104,7 +105,7 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="titel_stack">
         <h2>Projects</h2>
         <span>Things I’ve built so far</span>
@@ -348,17 +349,21 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="contact">
       <div class="first_container">
-        <img src="./img/logo_footer.svg" alt="" class="logo_footer" />
+        <!-- <img src="./img/logo_footer.svg" alt="" class="logo_footer" /> -->
+        <div class="footer_container_logo">
+          <h2>Biainili</h2>
+          <h6>Fornt-end <br>Develper</h6>
+        </div>
 
         <div class="info_container">
           <a href="">+374 33 55 75 65</a>
           <a href="">barkhudaryan005@gmail.com</a>
           <div class="footer_icons">
-            <a href=""><img src="./img/footer_gitHub.svg" alt="" /></a>
-            <a href=""><img src="./img/footer_linkden.svg" alt="" /></a>
-            <a href=""><img src="./img/footer_linkden.svg" alt="" /></a>
+            <a href="https://github.com/Biainili" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/mode_mani" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.linkedin.com/in/armen-barkhudaryan-706245249/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -372,7 +377,7 @@
           <li><a href="">Contact</a></li>
         </ul>
         <p>
-          Designed and built by <span>Pavan MG </span>with <span>Love</span> &
+          Designed and built by <span>Armen Barkhudaryan</span> with <span>Love</span> &
           <span>Coffee</span>
         </p>
       </div>
